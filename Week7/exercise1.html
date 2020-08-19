@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            Form 1
+        </title>
+    </head>
+    <body>
+        <form action="search?q=" name="Search Query"  method="GET" style="width: 450px; padding-left: 33%;">
+            <fieldset>
+                <p style="font-size: 20pt;">Search our web site!</p>
+                <hr color="#000000" size="2">
+                <br>
+                <label>Where do you want to search?</label><br><br>
+                <input type="radio" name="section" value="root_dir" checked="checked">Whole site<br>
+                <input type="radio" name="section" value="business_partners">Business Partners Section<br>
+                <input type="radio" name="section" value="corporate_coms">Corporate Communications Section<br>
+                <input type="radio" name="section" value="lotus_edu">Lotus Education Section<br><br>
+                Enter a word or two that we can search on:<br>
+                <input type="search" name="search" size="40"><br><br>
+                <input type="submit" name="submit" value="Submit">
+                <input type="reset" name="reset" value="Clear">
+            </fieldset>
+        </form>
+    </body>
+</html>
