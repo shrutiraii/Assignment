@@ -1,89 +1,78 @@
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git init
-Initialized empty Git repository in /home/ritesh/Documents/IT Assignments/.git/
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git commit -m "IT Assignments"
-On branch master
 
-Initial commit
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-        Week4/
-        Week5/
-        Week6/
-        Week7/
-
-nothing added to commit but untracked files present (use "git add" to track)
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git add .
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git status
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git status
 On branch master
 
 No commits yet
 
 Changes to be committed:
   (use "git rm --cached <file>..." to unstage)
-        new file:   Week4/Ritesh Rajbhandari Sec.G Wireframe.pdf
+        new file:   Week3/log.txt
+        new file:   Week4/Screenshot_1.png
+        new file:   Week4/Screenshot_2.png
         new file:   Week5/Exercise1.html
         new file:   Week5/Exercise2.html
         new file:   Week5/Exercise3.1.html
         new file:   Week5/Exercise3.html
-        new file:   Week5/landscape.jpg
-        new file:   Week5/landscape0.jpg
+        new file:   Week5/Nature1.jpg
+        new file:   Week5/Nature2.jpg
         new file:   Week6/BusDetails.html
         new file:   Week6/Exercise1.html
         new file:   Week6/about.html
         new file:   Week6/google.png
         new file:   Week6/home.html
-        new file:   Week6/image1.jpg
-        new file:   Week6/image2.jpg
-        new file:   Week6/image3.jpg
-        new file:   Week6/image4.jpg
+        new file:   Week6/rose1.jpg
+        new file:   Week6/rose2.jpg
+        new file:   Week6/rose3.jpg
+        new file:   Week6/rose4.jpg
         new file:   Week7/exercise1.html
         new file:   Week7/exercise2.html
 
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git commit
-[master (root-commit) 0c25379] Weekly Assignments
- 18 files changed, 470 insertions(+)
- create mode 100644 Week4/Ritesh Rajbhandari Sec.G Wireframe.pdf
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git commit -m "Assignments"
+[master (root-commit) b360824] Assignments
+ 20 files changed, 559 insertions(+)
+ create mode 100644 Week3/log.txt
+ create mode 100644 Week4/Screenshot_1.png
+ create mode 100644 Week4/Screenshot_2.png
  create mode 100644 Week5/Exercise1.html
  create mode 100644 Week5/Exercise2.html
  create mode 100644 Week5/Exercise3.1.html
  create mode 100644 Week5/Exercise3.html
- create mode 100644 Week5/landscape.jpg
- create mode 100644 Week5/landscape0.jpg
+ create mode 100644 Week5/Nature1.jpg
+ create mode 100644 Week5/Nature2.jpg
  create mode 100644 Week6/BusDetails.html
  create mode 100644 Week6/Exercise1.html
  create mode 100644 Week6/about.html
  create mode 100644 Week6/google.png
  create mode 100644 Week6/home.html
- create mode 100644 Week6/image1.jpg
- create mode 100644 Week6/image2.jpg
- create mode 100644 Week6/image3.jpg
- create mode 100644 Week6/image4.jpg
+ create mode 100644 Week6/rose1.jpg
+ create mode 100644 Week6/rose2.jpg
+ create mode 100644 Week6/rose3.jpg
+ create mode 100644 Week6/rose4.jpg
  create mode 100644 Week7/exercise1.html
  create mode 100644 Week7/exercise2.html
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git status
-On branch master
-nothing to commit, working tree clean
-ritesh@ritesh-Inspiron-3493:~/Docritesh@ritesh-Inspironritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git remote add Assignments https://github.com/riteshrajbhandari/ITAssignments
-ritesh@ritesh-Inspiron-3493:~/Documentritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$
- git remote -v
-Assignments     https://github.com/riteshrajbhandari/ITAssignments (fetch)
-Assignments     https://github.com/riteshrajbhandari/ITAssignments (push)
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git push Assignments masterremote: Repository not found.
-fatal: repository 'https://github.com/riteshrajbhandari/ITAssignments/' not found
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git remote add Assignments https://github.com/riteshrajbhandari/ITAssignments
-fatal: remote Assignments already exists.
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git remote add Assignments https://github.com/riteshrajbhandari/ITAssignments.git
-fatal: remote Assignments already exists.
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ git push -u Assignments master
-Enumerating objects: 24, done.
-Counting objects: 100% (24/24), done.
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git add .
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git remote add origin https://github.com/shrutiraii/Assignments.git
+fatal: remote origin already exists.
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git push -u origin master
+Enumerating objects: 27, done.
+Counting objects: 100% (27/27), done.
 Delta compression using up to 8 threads
-Compressing objects: 100% (24/24), done.
-Writing objects: 100% (24/24), 8.57 MiB | 662.00 KiB/s, done.
-Total 24 (delta 2), reused 0 (delta 0)
-remote: Resolving deltas: 100% (2/2), done.
-To https://github.com/riteshrajbhandari/ITAssignments
+Compressing objects: 100% (26/26), done.
+Writing objects: 100% (27/27), 3.08 MiB | 28.00 KiB/s, done.
+Total 27 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), done.
+To https://github.com/shrutiraii/Assignment.git
  * [new branch]      master -> master
-Branch 'master' set up to track remote branch 'master' from 'Assignments'.
-ritesh@ritesh-Inspiron-3493:~/Documents/IT Assignments$ 
+Branch 'master' set up to track remote branch 'master' from 'origin'.
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+C:\Users\uSer\Downloads\Assignments\Assignments-IT>
